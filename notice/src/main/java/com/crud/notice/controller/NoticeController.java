@@ -25,15 +25,9 @@ import com.crud.notice.service.NoticeService;
 @RequestMapping({"/notices"})
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class NoticeController {
-	
-//	private NoticeService noticeService;
-//
-//	NoticeController(NoticeService noticeService) {
-//	       this.noticeService = noticeService;
-//	}
-	
+
 	@Autowired
-    private NoticeService noticeService;
+        private NoticeService noticeService;
 
 	
 	@GetMapping
